@@ -1,0 +1,39 @@
+.counter-container {
+    background-color: rgb(57, 57, 255);
+    align-items: center;
+    height: 150px;
+    width: 300px;
+    border-radius: 7px;
+    text-align: center;
+    position: relative;
+}
+
+.counter-container > h3 {
+    color: white;
+    margin-top: 15px;
+}
+
+.counter-container > h1 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.counter-container > button {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    margin: 0;
+    background-color: rgba(0, 0, 255, 0.255);
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 0 0 7px 7px;
+    cursor: pointer;
+}
+.counter-container > button:hover {
+    background-color: blue;
+}
