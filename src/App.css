@@ -1,9 +1,5 @@
-*{
-  margin: 20px 20px;
-}
-
-.App {
+.App{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-content: center;
 }
