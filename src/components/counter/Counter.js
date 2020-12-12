@@ -10,9 +10,9 @@ const Counter = () => {
   };
   return (
     <div className="counter-container">
-        <h3>Counter</h3>
-        <h1>{counter}</h1>
-        <button onClick={AddCounter}>Click</button>
+        <h3 className="title">Counter</h3>
+        <h1 className="data">{counter}</h1>
+        <button className="button" onClick={AddCounter}>Click</button>
     </div>
     );
 };

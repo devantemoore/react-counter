@@ -8,17 +8,17 @@
     position: relative;
 }
 
-.counter-container > h3 {
+.counter-container > .title {
     color: white;
     margin-top: 15px;
 }
 
-.counter-container > h1 {
+.counter-container > .data {
     color: white;
     margin-bottom: 15px;
 }
 
-.counter-container > button {
+.counter-container > .button {
     color: white;
     font-weight: bold;
     text-decoration: none;
