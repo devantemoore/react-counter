@@ -9,7 +9,7 @@ const Counter = () => {
     setCounter(counter + 1);
   };
   return (
-    <div className="counter-container">
+    <div className="counter-container m-4">
         <h3 className="title">Counter</h3>
         <h1 className="data">{counter}</h1>
         <button className="button" onClick={AddCounter}>Click</button>
