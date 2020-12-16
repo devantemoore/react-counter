@@ -4,7 +4,7 @@ import ToDo from '../components/to-do/ToDo';
 
 const Components = () => {
     return (
-        <div>
+        <div className="container bg-warning p-5">
             <Counter/>
             <ToDo/>
         </div>
